@@ -1,0 +1,41 @@
+.dogs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.dog-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    width: 250px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.dog-card:hover {
+    transform: scale(1.05);
+}
+
+.dog-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.dog-details {
+    padding: 10px;
+}
+
+.dog-name-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.dog-age {
+    color: #777;
+}
